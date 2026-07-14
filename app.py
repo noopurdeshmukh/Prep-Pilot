@@ -194,7 +194,6 @@ def show_home_page() -> None:
 
     with right:
         st.markdown('<div class="mascot-card">', unsafe_allow_html=True)
-        st.image("assets/ui1.jpg", caption="Your cozy study buddy", use_column_width=True)
         st.markdown('<div class="mascot-icon">🐻✨</div>', unsafe_allow_html=True)
         st.markdown('<h3 class="mascot-heading">Hello, friend!</h3>', unsafe_allow_html=True)
         st.markdown(
