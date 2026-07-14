@@ -8,7 +8,7 @@ st.markdown(
     }
 
     [data-testid="stHeader"] {
-        background-color: rgba(0,0,0,0);
+        background-color: #E8DDF5;
     }
     </style>
     """,
