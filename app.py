@@ -5,7 +5,7 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background-color: #9f91ce;
+        background-color: lavenderblush;
     }}
     </style>
     """,
