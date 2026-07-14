@@ -229,8 +229,8 @@ def show_home_page() -> None:
     left, right = st.columns([2, 1], gap="large")
 
     with left:
-        st.markdown('<div class="section-title">Prep-Pilot</div>', unsafe_allow_html=True)
-        st.markdown('<h1 class="hero-headline">Your AI-Powered Study Companion</h1>', unsafe_allow_html=True)
+        st.markdown('<div class="hero-headline">Prep-Pilot</div>', unsafe_allow_html=True)
+        st.markdown('<h1 class="hero-title">Your AI-Powered Study Companion</h1>', unsafe_allow_html=True)
         st.markdown(
             '<p class="hero-text">A calm, green learning workspace designed to feel friendly, supportive, and easy to use.</p>',
             unsafe_allow_html=True,
