@@ -1,12 +1,15 @@
 import streamlit as st
 
-
 st.markdown(
-    f"""
+    """
     <style>
-    .reportview-container {{
-        background-color: #DCEEFF;
-    }}
+    [data-testid="stAppViewContainer"] {
+        background-color: #F4F1FA;
+    }
+
+    [data-testid="stHeader"] {
+        background-color: rgba(0,0,0,0);
+    }
     </style>
     """,
     unsafe_allow_html=True
